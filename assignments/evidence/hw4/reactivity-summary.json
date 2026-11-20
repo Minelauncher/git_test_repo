@@ -1,0 +1,116 @@
+{
+  "criteria": {
+    "description": "Compare the first grasp-height TCP approach (within 4cm above fruit root and 12cm XY; fallback lowest early approach within 12s). Require >=2cm response along the 5cm shift, >=1cm closer to new target than paired baseline, and within 4cm XY of new target. Closing/placement is assessed separately.",
+    "purpose": "Operational target-following judgement, distinct from release/placement success.",
+    "response_threshold_m": 0.02,
+    "improvement_threshold_m": 0.01,
+    "new_target_distance_threshold_m": 0.04
+  },
+  "trials": {
+    "act": [
+      {
+        "trial": 0,
+        "followed": true,
+        "success": true,
+        "baseline_success": true,
+        "baseline_approach_frame": 202,
+        "perturbed_approach_frame": 185,
+        "response_along_shift_m": 0.022699356079101562,
+        "new_target_distance_at_approach_m": 0.030324528622743804,
+        "improvement_vs_baseline_m": 0.022697598233741748
+      },
+      {
+        "trial": 1,
+        "followed": false,
+        "success": false,
+        "baseline_success": true,
+        "baseline_approach_frame": 203,
+        "perturbed_approach_frame": 198,
+        "response_along_shift_m": 0.017831087112426758,
+        "new_target_distance_at_approach_m": 0.03694954534334674,
+        "improvement_vs_baseline_m": 0.01784224544467447
+      },
+      {
+        "trial": 2,
+        "followed": true,
+        "success": true,
+        "baseline_success": true,
+        "baseline_approach_frame": 202,
+        "perturbed_approach_frame": 196,
+        "response_along_shift_m": 0.020665645599365234,
+        "new_target_distance_at_approach_m": 0.030665643917751777,
+        "improvement_vs_baseline_m": 0.0198868541867714
+      }
+    ],
+    "dp": [
+      {
+        "trial": 0,
+        "followed": true,
+        "success": false,
+        "baseline_success": false,
+        "baseline_approach_frame": 359,
+        "perturbed_approach_frame": 181,
+        "response_along_shift_m": 0.03308415412902832,
+        "new_target_distance_at_approach_m": 0.0256792696918641,
+        "improvement_vs_baseline_m": 0.04411408401081329
+      },
+      {
+        "trial": 1,
+        "followed": true,
+        "success": false,
+        "baseline_success": true,
+        "baseline_approach_frame": 202,
+        "perturbed_approach_frame": 152,
+        "response_along_shift_m": 0.029537677764892578,
+        "new_target_distance_at_approach_m": 0.025188800768470337,
+        "improvement_vs_baseline_m": 0.0248848130721632
+      },
+      {
+        "trial": 2,
+        "followed": true,
+        "success": false,
+        "baseline_success": false,
+        "baseline_approach_frame": 168,
+        "perturbed_approach_frame": 173,
+        "response_along_shift_m": 0.026034832000732422,
+        "new_target_distance_at_approach_m": 0.025705815590052018,
+        "improvement_vs_baseline_m": 0.022597014276733617
+      }
+    ],
+    "dp_ddim10": [
+      {
+        "trial": 0,
+        "followed": true,
+        "success": false,
+        "baseline_success": false,
+        "baseline_approach_frame": 182,
+        "perturbed_approach_frame": 173,
+        "response_along_shift_m": 0.03012990951538086,
+        "new_target_distance_at_approach_m": 0.025680474237456518,
+        "improvement_vs_baseline_m": 0.02913748216927398
+      },
+      {
+        "trial": 1,
+        "followed": true,
+        "success": false,
+        "baseline_success": true,
+        "baseline_approach_frame": 172,
+        "perturbed_approach_frame": 183,
+        "response_along_shift_m": 0.02776026725769043,
+        "new_target_distance_at_approach_m": 0.025174618182438914,
+        "improvement_vs_baseline_m": 0.02418809040585762
+      },
+      {
+        "trial": 2,
+        "followed": true,
+        "success": false,
+        "baseline_success": false,
+        "baseline_approach_frame": 152,
+        "perturbed_approach_frame": 179,
+        "response_along_shift_m": 0.027110815048217773,
+        "new_target_distance_at_approach_m": 0.026485287319713193,
+        "improvement_vs_baseline_m": 0.021864417628602643
+      }
+    ]
+  }
+}

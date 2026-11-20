@@ -1,0 +1,25 @@
+{
+  "server_python": "3.12.10",
+  "server_packages": {
+    "lerobot": "0.6.0",
+    "torch": "2.9.1+cu128",
+    "diffusers": "0.35.2",
+    "torchvision": "0.24.1+cu128",
+    "av": "15.1.0"
+  },
+  "simulation_packages": {
+    "av": "15.1.0",
+    "isaaclab": "3.0.0",
+    "isaacsim": "6.2.0.0",
+    "lerobot": "0.6.1",
+    "torch": "2.11.0+cu130"
+  },
+  "gpu": "NVIDIA GeForce RTX 5080 Laptop GPU, 595.97, 16303 MiB",
+  "sources": {
+    "eval_policy_server.py": "d887dd405c83f07ede7a0e4854596f4824262eabbb7df22653e9c75f3554af9b",
+    "eval_wire.py": "404fc010e9d8e3a1bc021f6d5f6f743535d5457954d544b5afd49d5d8b099b98"
+  },
+  "physics": "course kit default: gravity enabled; 60Hz physics, 30Hz control",
+  "motor_connection": false,
+  "inference": "float32, no autocast; LeRobot select_action and saved normalization; DDPM100 versus DDIM10"
+}

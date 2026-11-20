@@ -1,0 +1,130 @@
+{
+  "paired_initial_states_verified": true,
+  "initial_position_tolerance_m": 0.0001,
+  "maximum_initial_state_deviation": 1.043081283569336e-05,
+  "conditions": {
+    "act": {
+      "episodes": 10,
+      "successes": 9,
+      "course_successes": 9,
+      "success_rate": 0.9,
+      "mean_sim_seconds": 17.290000000000003,
+      "mean_success_sim_seconds": 15.877777777777778,
+      "action_call_mean_ms": 0.7981233849456447,
+      "action_call_p95_ms": 0.7893700734712183,
+      "new_chunk_mean_ms": 20.497691227335547,
+      "new_chunk_p95_ms": 22.15610002167523,
+      "mean_joint_jerk_rms_rad_s3": 119.36948623657227,
+      "mean_joint_acceleration_rms_rad_s2": 2.4827935695648193,
+      "subjective_smoothness": 4,
+      "per_fruit": {
+        "Strawberry": {
+          "trials": 3,
+          "successes": 3
+        },
+        "Orange": {
+          "trials": 3,
+          "successes": 3
+        },
+        "Lemon": {
+          "trials": 2,
+          "successes": 2
+        },
+        "Banana": {
+          "trials": 2,
+          "successes": 1
+        }
+      },
+      "representative_episode": 0,
+      "reactivity_followed": 2,
+      "reactivity_trials": 3,
+      "reactivity_placement_successes": 2,
+      "reactivity_paired_baseline_successes": 3,
+      "mean_smooth": 4
+    },
+    "dp": {
+      "episodes": 10,
+      "successes": 8,
+      "course_successes": 8,
+      "success_rate": 0.8,
+      "mean_sim_seconds": 20.553333333333335,
+      "mean_success_sim_seconds": 18.191666666666666,
+      "action_call_mean_ms": 163.4559135411022,
+      "action_call_p95_ms": 1262.011699989671,
+      "new_chunk_mean_ms": 1276.4435733222047,
+      "new_chunk_p95_ms": 1356.0485749912914,
+      "mean_joint_jerk_rms_rad_s3": 123.29461212158203,
+      "mean_joint_acceleration_rms_rad_s2": 2.7122654795646666,
+      "subjective_smoothness": 2,
+      "per_fruit": {
+        "Strawberry": {
+          "trials": 3,
+          "successes": 3
+        },
+        "Orange": {
+          "trials": 3,
+          "successes": 1
+        },
+        "Lemon": {
+          "trials": 2,
+          "successes": 2
+        },
+        "Banana": {
+          "trials": 2,
+          "successes": 2
+        }
+      },
+      "representative_episode": 0,
+      "reactivity_followed": 3,
+      "reactivity_trials": 3,
+      "reactivity_placement_successes": 0,
+      "reactivity_paired_baseline_successes": 1,
+      "mean_smooth": 2
+    },
+    "dp_ddim10": {
+      "episodes": 10,
+      "successes": 7,
+      "course_successes": 7,
+      "success_rate": 0.7,
+      "mean_sim_seconds": 20.34,
+      "mean_success_sim_seconds": 16.2,
+      "action_call_mean_ms": 17.55116034089809,
+      "action_call_p95_ms": 119.123479956761,
+      "new_chunk_mean_ms": 118.78423059746031,
+      "new_chunk_p95_ms": 121.9307450344786,
+      "mean_joint_jerk_rms_rad_s3": 164.04715118408203,
+      "mean_joint_acceleration_rms_rad_s2": 3.4773616671562193,
+      "subjective_smoothness": 2,
+      "per_fruit": {
+        "Strawberry": {
+          "trials": 3,
+          "successes": 2
+        },
+        "Orange": {
+          "trials": 3,
+          "successes": 1
+        },
+        "Lemon": {
+          "trials": 2,
+          "successes": 2
+        },
+        "Banana": {
+          "trials": 2,
+          "successes": 2
+        }
+      },
+      "representative_episode": 0,
+      "reactivity_followed": 3,
+      "reactivity_trials": 3,
+      "reactivity_placement_successes": 0,
+      "reactivity_paired_baseline_successes": 1,
+      "mean_smooth": 2
+    }
+  },
+  "inference_precision": "float32, no autocast, matching the course checkpoint wrapper convention",
+  "comparison_frames": "30Hz simulated time, synchronous inference",
+  "private_server_evaluation": false,
+  "reactivity_judgements": "paired TCP trajectory criterion, with raw videos/traces retained",
+  "subjective_smoothness": "user_video_review_complete; condition-level ratings applied uniformly",
+  "smoothness_rating_source": "smoothness-ratings.json"
+}

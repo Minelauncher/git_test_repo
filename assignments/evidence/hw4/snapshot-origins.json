@@ -1,0 +1,72 @@
+[
+  {
+    "snapshot": "train_dataset/meta/info.json",
+    "source": "week12/kit-fruit-demos-100/dataset/meta/info.json",
+    "sha256": "0501e3c47c7dfc0af2f615d73e0a1498c976f778c8a3b72a73fbc1ee2b7d4348"
+  },
+  {
+    "snapshot": "act_policy/config.json",
+    "source": "outputs/train/hw4_sim100_act_20261119_sim100/train/checkpoints/100000/pretrained_model/config.json",
+    "sha256": "996418526eccde5b9a9390adb65c0043ab1ed42d64207e44fb5557a1a08098b1"
+  },
+  {
+    "snapshot": "act_policy/train_config.json",
+    "source": "outputs/train/hw4_sim100_act_20261119_sim100/train/checkpoints/100000/pretrained_model/train_config.json",
+    "sha256": "1c10dd45c27e1846b1f15bc5e7236db0d1275a3c051f51a8283e00614b334d6c"
+  },
+  {
+    "snapshot": "dp_policy/config.json",
+    "source": "outputs/train/hw4_sim100_diffusion_20261119_sim100/train/checkpoints/100000/pretrained_model/config.json",
+    "sha256": "ef26fc3c68d2fd2d7db2e7620efd14942dcd3a2db907c0a965f8f335dff58021"
+  },
+  {
+    "snapshot": "dp_policy/train_config.json",
+    "source": "outputs/train/hw4_sim100_diffusion_20261119_sim100/train/checkpoints/100000/pretrained_model/train_config.json",
+    "sha256": "b1b74a8c8942e65e2ee4f68c46da6dcaf70f0954f8d0f33e036d2a7602c87aed"
+  },
+  {
+    "snapshot": "eval_act/meta/info.json",
+    "source": "assignment_4/simulation/eval-release-20261120/act/comparison/dataset/meta/info.json",
+    "sha256": "9dc13ddb3b9f9588491971bb3d16709be60ead36c190023e732c3e5cd9a68c41"
+  },
+  {
+    "snapshot": "eval_dp/meta/info.json",
+    "source": "assignment_4/simulation/eval-release-20261120/dp/comparison/dataset/meta/info.json",
+    "sha256": "b1330b011c7af7b86c03fd1e5e655a10c27abf91d63de2142452ce6aa0d05c15"
+  },
+  {
+    "snapshot": "eval_dp_ddim10/meta/info.json",
+    "source": "assignment_4/simulation/eval-release-20261120/dp_ddim10/comparison/dataset/meta/info.json",
+    "sha256": "112fc2ec0fe8f13f6767dcec1beda64254919f8c6f17effd59a2aaaea0924b05"
+  },
+  {
+    "snapshot": "summary.json",
+    "source": "assignment_4/simulation/eval-release-20261120/summary.json",
+    "sha256": "d3b16fa1bdafb37340c5f4f4b6da7e25199a2a4d037081fa3d45dc9566428541"
+  },
+  {
+    "snapshot": "protocol.json",
+    "source": "assignment_4/simulation/eval-release-20261120/protocol.json",
+    "sha256": "4f8d5da5719145638bc4ef4517a2db3ccf8a91230d3eaac44f753f3b8da4163e"
+  },
+  {
+    "snapshot": "reactivity-summary.json",
+    "source": "assignment_4/simulation/eval-release-20261120/reactivity-summary.json",
+    "sha256": "8e1803c457ac402a04761e5e836fd51c47792884df6039f4c2f9ccc48fac7651"
+  },
+  {
+    "snapshot": "evaluation-complete.json",
+    "source": "assignment_4/simulation/eval-release-20261120/evaluation-complete.json",
+    "sha256": "499a3cdc7d6b3fb6a234bec98b204f694b5ba11441d12379d60da1bb9efd0a0b"
+  },
+  {
+    "snapshot": "environment.json",
+    "source": "assignment_4/simulation/eval-release-20261120/environment.json",
+    "sha256": "43cd573a641cc7ad84bdefd454ca6dfbb1a8f176b93504c60f15283b407b9c09"
+  },
+  {
+    "snapshot": "smoothness-ratings.json",
+    "source": "assignment_4/simulation/eval-release-20261120/smoothness-ratings.json",
+    "sha256": "dbbe95cd43a814546f3b314e5365752200124d9e877b92a972a216a60e1e36c0"
+  }
+]

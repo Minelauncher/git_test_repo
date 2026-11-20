@@ -1,0 +1,74 @@
+{
+  "status": "local_simulation_evaluation_complete",
+  "verified_at": "2026-11-20T11:04:43.602421+09:00",
+  "comparison_episodes": 30,
+  "required_dp_reactivity_trials": 6,
+  "additional_act_reactivity_trials": 3,
+  "paired_initial_states_verified": true,
+  "dataset_validation": [
+    {
+      "condition": "act",
+      "phase": "comparison",
+      "episodes": 10,
+      "frames": 5187,
+      "terminal_flags": "passed",
+      "state_action_finite": "passed",
+      "max_executed_action_error_rad": 0.0
+    },
+    {
+      "condition": "act",
+      "phase": "reactivity",
+      "episodes": 3,
+      "frames": 1838,
+      "terminal_flags": "passed",
+      "state_action_finite": "passed",
+      "max_executed_action_error_rad": 0.0
+    },
+    {
+      "condition": "dp",
+      "phase": "comparison",
+      "episodes": 10,
+      "frames": 6166,
+      "terminal_flags": "passed",
+      "state_action_finite": "passed",
+      "max_executed_action_error_rad": 0.0
+    },
+    {
+      "condition": "dp",
+      "phase": "reactivity",
+      "episodes": 3,
+      "frames": 2700,
+      "terminal_flags": "passed",
+      "state_action_finite": "passed",
+      "max_executed_action_error_rad": 0.0
+    },
+    {
+      "condition": "dp_ddim10",
+      "phase": "comparison",
+      "episodes": 10,
+      "frames": 6102,
+      "terminal_flags": "passed",
+      "state_action_finite": "passed",
+      "max_executed_action_error_rad": 0.0
+    },
+    {
+      "condition": "dp_ddim10",
+      "phase": "reactivity",
+      "episodes": 3,
+      "frames": 2700,
+      "terminal_flags": "passed",
+      "state_action_finite": "passed",
+      "max_executed_action_error_rad": 0.0
+    }
+  ],
+  "subjective_smoothness_1_to_5": {
+    "act": 4,
+    "dp": 2,
+    "dp_ddim10": 2
+  },
+  "hf_upload": "verified_models_public_datasets_private",
+  "github_submission": "not_submitted",
+  "summary": "C:\\Users\\kyhyg\\OneDrive\\바탕 화면\\4학년\\2학기\\로봇제어인공지능01김성제\\assignment_4\\simulation\\eval-release-20261120\\summary.json",
+  "smoothness_rating_source": "smoothness-ratings.json",
+  "hf_publication_manifest": "assignment_4/hf-publication.json"
+}

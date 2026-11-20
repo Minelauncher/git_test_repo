@@ -1,0 +1,16 @@
+{
+  "source": "user_video_review",
+  "user_statement": "act 4 디퓨전두개다 2점",
+  "scores": {
+    "act": 4,
+    "dp": 2,
+    "dp_ddim10": 2
+  },
+  "scale": {
+    "min": 1,
+    "max": 5
+  },
+  "application": "Condition-level representative ratings applied uniformly to each condition's 10 comparison episodes; not independent episode-level judgements.",
+  "review_videos": "smoothness-review/review-index.json",
+  "timing_limitation": "30fps simulated-time playback excludes wall-clock inference waits."
+}

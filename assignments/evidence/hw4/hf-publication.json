@@ -1,0 +1,81 @@
+{
+  "status": "complete",
+  "models_public": true,
+  "datasets_private": true,
+  "gated": false,
+  "public_dataset_requirement": "not_met_by_user_choice",
+  "repositories": [
+    {
+      "id": "alohateam1423/sim_fruit_100",
+      "type": "dataset",
+      "private": true,
+      "sha": "8cb9218897dba125fad695a79aed88cf4336d341",
+      "status": "verified",
+      "anonymous_access": false
+    },
+    {
+      "id": "alohateam1423/act_sim_fruit100",
+      "type": "model",
+      "private": false,
+      "sha": "be856f198fba05dd2916b2d8e35c2d8a86453946",
+      "status": "verified",
+      "anonymous_access": true
+    },
+    {
+      "id": "alohateam1423/diffusion_sim_fruit100",
+      "type": "model",
+      "private": false,
+      "sha": "63b97f24b7d4d1860f4fc5ad571e0dc4f8ec3699",
+      "status": "verified",
+      "anonymous_access": true
+    },
+    {
+      "id": "alohateam1423/rollout_hw4_sim_act",
+      "type": "dataset",
+      "private": true,
+      "sha": "6b300569d423b57335a0a5774c782565756d849d",
+      "status": "verified",
+      "anonymous_access": false
+    },
+    {
+      "id": "alohateam1423/rollout_hw4_sim_act_reactivity",
+      "type": "dataset",
+      "private": true,
+      "sha": "3ff0f572cfb31b88eecab6b0e5a79bdb10747ea0",
+      "status": "verified",
+      "anonymous_access": false
+    },
+    {
+      "id": "alohateam1423/rollout_hw4_sim_dp",
+      "type": "dataset",
+      "private": true,
+      "sha": "4faeba3d0ed40a811d985ae5d81f83f1f9d5caf3",
+      "status": "verified",
+      "anonymous_access": false
+    },
+    {
+      "id": "alohateam1423/rollout_hw4_sim_dp_reactivity",
+      "type": "dataset",
+      "private": true,
+      "sha": "335cdefbd214e8f34ef2e5b8bd810fb93ad95383",
+      "status": "verified",
+      "anonymous_access": false
+    },
+    {
+      "id": "alohateam1423/rollout_hw4_sim_dp_ddim10",
+      "type": "dataset",
+      "private": true,
+      "sha": "dd9b913df40307eafa594ec9b60e423fffaa4c9e",
+      "status": "verified",
+      "anonymous_access": false
+    },
+    {
+      "id": "alohateam1423/rollout_hw4_sim_dp_ddim10_reactivity",
+      "type": "dataset",
+      "private": true,
+      "sha": "e172f86a42067dc4ae86dfe93052797842e979aa",
+      "status": "verified",
+      "anonymous_access": false
+    }
+  ]
+}
